@@ -12,7 +12,7 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-
+gem 'rails_12factor', group: :production
 gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-sass', '~> 2.3.2.2'
 gem 'uglifier', '>= 1.3.0'
